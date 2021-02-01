@@ -17,9 +17,7 @@ namespace FunctionalExtension
             Value = someValue;
         }
 
-        public Maybe()
-        {
-        }
+        public Maybe() { }
 
         public static Maybe<T> None => new Maybe<T>();
     }
